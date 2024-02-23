@@ -39,7 +39,7 @@ Burnbright\SocialLinks\SocialLink:
     nikeplus: Nike+
     orkut: Orkut
     pinboard: Pinboard
-    pintrest: Pintrest
+    pinterest: Pinterest
     posterous: Posterous
     rdio: Rdio
     readability: Readability
@@ -65,5 +65,6 @@ Burnbright\SocialLinks\SocialLink:
     yahoo: Yahoo
     yelp: Yelp
     youtube: YouTube
+    x: X
     zerply: Zerply
     zootool: Zootool

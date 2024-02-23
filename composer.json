@@ -1,5 +1,5 @@
 {
-    "name": "burnbright/silverstripe-sociallinks",
+    "name": "hudhaifas-forks/silverstripe-sociallinks",
     "description": "A quick and easy way to store,retrieve, and style social media links",
     "type": "silverstripe-vendormodule",
     "license": "BSD-2",
@@ -10,13 +10,14 @@
             "email": "jeremy@burnbright.net"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
-        "silverstripe/framework": "^4",
-        "silverstripe/cms": "^4",
-        "silverstripe/vendor-plugin": "^1.0"
+        "silverstripe/framework": "^5",
+        "silverstripe/cms": "^5",
+        "silverstripe/vendor-plugin": "~2.0.1@stable"
     },
     "suggests": {
-        "ajshort/silverstripe-gridfieldextensions": "*",
+        "ajshort/silverstripe-gridfieldextensions": "dev-master",
         "burnbright/silverstripe-listeditor": "*"
     },
     "extra": {

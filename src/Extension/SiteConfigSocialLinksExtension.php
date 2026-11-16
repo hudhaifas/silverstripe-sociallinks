@@ -2,14 +2,14 @@
 
 namespace Burnbright\SocialLinks;
 
+use SilverStripe\Core\Extension;
 use SilverStripe\Forms\FieldList;
 use SilverStripe\Forms\GridField\GridField;
 use SilverStripe\Forms\GridField\GridFieldConfig_RelationEditor;
 use SilverStripe\Forms\Tab;
-use SilverStripe\ORM\DataExtension;
 
 class SiteConfigSocialLinksExtension
-        extends DataExtension {
+        extends Extension {
 
     private static $has_many = [
         'SocialLinks' => SocialLink::class
